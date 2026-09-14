@@ -4,11 +4,11 @@ import { AudioProvider } from "../context/AudioContext";
 import FloatingMusicControl from "../components/FloatingMusicControl";
 
 export const metadata: Metadata = {
-  title: "Shahd's World ❤️ | عالمنا الصغير",
-  description: "A special digital romantic experience created just for Shahad.",
+  title: "Nada's World ❤️ | عالمنا الصغير",
+  description: "A special digital romantic experience created just for Nada.",
   icons: {
-    icon: "/logo.jfif",
-    apple: "/logo.jfif",
+    icon: "/logo.png",
+    apple: "/logo.png",
   },
 };
 

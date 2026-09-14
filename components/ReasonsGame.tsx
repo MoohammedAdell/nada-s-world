@@ -109,7 +109,7 @@ export default function ReasonsGame({ onNext }: ReasonsGameProps) {
       <div className="w-full max-w-md space-y-2">
         <div className="flex justify-between items-center text-xs md:text-sm font-semibold text-pink-200">
           <span>
-            شهد وصلت لـ {currentIndex + 1} من {reasons100.length}
+            ندا وصلت لـ {currentIndex + 1} من {reasons100.length}
           </span>
           <span>{progressPercentage}%</span>
         </div>

@@ -72,7 +72,7 @@ export default function LoveCounter({ onNext }: LoveCounterProps) {
         </h2>
         
         <p className="text-pink-200/80 text-sm md:text-base max-w-md mx-auto">
-          كل ثانية بتعدي وأنتي معايا في حياتي هي مكسب وفرحة لقلبي يا قطتي شهد...
+          كل ثانية بتعدي وأنتي معايا في حياتي هي مكسب وفرحة لقلبي يا قطتي ندا...
         </p>
       </div>
 
@@ -113,7 +113,7 @@ export default function LoveCounter({ onNext }: LoveCounterProps) {
         </div>
 
         <p className="text-white text-base md:text-lg font-medium leading-relaxed">
-          "الأرقام دي مش مجرد أيام وساعات بتعدي.. دي أجمل أوقات عشتها في حياتي، وكل يوم بيكبر حبي لقطتي شهد أكتر من اليوم اللي قبله."
+          "الأرقام دي مش مجرد أيام وساعات بتعدي.. دي أجمل أوقات عشتها في حياتي، وكل يوم بيكبر حبي لقطتي ندا أكتر من اليوم اللي قبله."
         </p>
 
         <span className="inline-block text-xs text-pink-300/80 font-semibold pt-2 border-t border-white/10 w-full">

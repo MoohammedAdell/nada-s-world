@@ -60,7 +60,7 @@ export default function LieDetectorLogin({
           كاشف البصمة الرومانسي 🔮
         </h2>
         <p className="text-pink-200/80 text-sm">
-          قبل ما تدخلي.. حطي صباعك على البصمة عشان نتأكد إنك شهد الحقيقية!
+          قبل ما تدخلي.. حطي صباعك على البصمة عشان نتأكد إنك ندا الحقيقية!
         </p>
       </div>
 
@@ -144,7 +144,7 @@ export default function LieDetectorLogin({
               {/* Humorous Verification Message */}
               <div className="p-4 rounded-2xl bg-white/5 border border-white/10 space-y-2 text-center">
                 <p className="text-sm md:text-base font-bold text-white leading-relaxed">
-                  "اتضح إنك قطتي شهد الرسمية والمعتمدة للحياة! 😜❤️"
+                  "اتضح إنك قطتي ندا الرسمية والمعتمدة للحياة! 😜❤️"
                 </p>
                 <p className="text-xs text-pink-200/70">
                   (التحليل أثبت كمان إنك بتحبيني أكتر ما أنا بحبك بـ 0.001% بس
@@ -160,7 +160,7 @@ export default function LieDetectorLogin({
                 <div className="relative w-full flex items-center">
                   <input
                     type={showPassword ? "text" : "password"}
-                    placeholder="اكتبي كلمة السر يا شهد..."
+                    placeholder="اكتبي كلمة السر يا ندا..."
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     className="w-full px-5 py-3.5 pl-12 rounded-full bg-white/10 border border-white/20 text-white placeholder-pink-200/50 text-center text-sm focus:outline-none focus:border-pink-400 transition-all"

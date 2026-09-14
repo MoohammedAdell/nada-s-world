@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
-import React from 'react';
-import { motion } from 'framer-motion';
-import { loveCards } from '@/data/loveStory';
-import { Smile, Sparkles, HeartHandshake, Eye, Sun } from 'lucide-react';
+import React from "react";
+import { motion } from "framer-motion";
+import { loveCards } from "@/data/loveStory";
+import { Smile, Sparkles, HeartHandshake, Eye, Sun } from "lucide-react";
 
 interface LoveCardsProps {
   onNext: () => void;
@@ -40,12 +40,14 @@ export default function LoveCards({ onNext }: LoveCardsProps) {
             key={card.id}
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-50px' }}
+            viewport={{ once: true, margin: "-50px" }}
             transition={{ duration: 0.6, delay: index * 0.1 }}
             className="glass-card rounded-2xl p-6 flex flex-col md:flex-row items-start md:items-center gap-5 hover:border-romantic-pink/50 transition-colors"
           >
             <div className="p-3 bg-romantic-pink/10 rounded-xl border border-romantic-pink/30 shrink-0">
-              {iconMap[card.iconName] || <Sparkles className="w-7 h-7 text-romantic-pink" />}
+              {iconMap[card.iconName] || (
+                <Sparkles className="w-7 h-7 text-romantic-pink" />
+              )}
             </div>
 
             <div className="space-y-1 text-right">

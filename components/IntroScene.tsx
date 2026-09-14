@@ -62,14 +62,14 @@ export default function IntroScene({ onNext }: IntroSceneProps) {
         {/* Romantic & Spiritual Message */}
         <div className="space-y-3 text-pink-100 font-light leading-relaxed">
           <h2 className="text-2xl md:text-3xl font-extrabold text-white">
-            الحمد لله الذي رزقني حبك يا شهد ❤️
+            الحمد لله الذي رزقني حبك يا ندا ❤️
           </h2>
           <p className="text-sm md:text-base text-pink-100/90">
             أجمل ما في الحب إنه يكون نِعمة من ربنا، وأول حاجة حبّيت أبدأ بيها المكان الخاص بنا هي شكر ربنا والدعاء ليكي.
           </p>
           
           <div className="p-4 rounded-2xl bg-white/5 border border-white/10 italic text-amber-100 text-xs md:text-sm">
-            "اللهم إني أسألك أن تحفظ لي شهد، وتديم بيننا المودة والرحمة، وتجعل أيامنا كلها بركة ونور وسعادة." 🤲✨
+            "اللهم إني أسألك أن تحفظ لي ندا، وتديم بيننا المودة والرحمة، وتجعل أيامنا كلها بركة ونور وسعادة." 🤲✨
           </div>
         </div>
       </motion.div>

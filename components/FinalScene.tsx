@@ -124,7 +124,7 @@ export default function FinalScene({ onRestart }: FinalSceneProps) {
 
           <div className="space-y-2">
             <h2 className="text-2xl md:text-3xl font-black text-white">
-              هدية الختام لشهد ✨
+              هدية الختام لندا ✨
             </h2>
             <p className="text-xs md:text-sm text-pink-200/80">
               اضغطي على الزرار تحت عشان تسحبي كارت هديتك مني !
